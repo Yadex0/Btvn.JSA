@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    background-color: gray;
+    padding: 20px;
+}
+
+nav .container{
+    display: flex;
+}
+
+.container .logo img {
+    width: 10%;
+}
+
+.navigation{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.navigation li{
+    margin-right: 2;
+    width: 100px;
+}
+
+.navigation li a{
+    color: black;
+    text-decoration: none;
+    width: 100px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon a{
+    color: black;
+    margin-right: 20px; 
+}
+
